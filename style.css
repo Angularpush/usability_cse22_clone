@@ -31,18 +31,7 @@ ul {
     padding: 0 var(--padding-inline-section);
 }
 
-.top-banner {
-    background-image: url(./assets/asset\ 32.png);
-    background-color: aqua;
-    background-size: 300px;
-}
 
-.top-banner {
-    color: white;
-    padding: 15px 30px;
-    text-align: center;
-    font-size: 1rem;
-}
 h1{
     font-size: 3rem;
 }
@@ -60,5 +49,28 @@ p{
 a{
     text-decoration: none;
     display: inline;
-    
+
+}
+
+
+.conatiner{
+    max-width: 1180px;
+    margin-inline: auto;
+    padding-inline: var(--padding-inline-section);
+}
+
+
+.top-banner {
+    background-image: url(./assets/asset\ 32.png);
+    background-color: #4fb3d4;
+    background-size: 300px;
+}
+
+
+
+.banner-text {
+    color: white;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 1rem;
 }
