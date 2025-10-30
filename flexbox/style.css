@@ -1,0 +1,26 @@
+.container {
+    width: 800px;
+    height: 500px;
+    border: 2px solid red;
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    /* flex-flow: column wrap; */
+    justify-content: center;
+    /* align-items: center; */
+    align-content: center;
+    gap: 10px;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    border: 5px solid black;
+    margin: 5px;
+}
+#bx4 {
+    order: 3;
+}
+#bx5 {
+    order: 2;
+}
